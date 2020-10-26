@@ -13,7 +13,6 @@ function suma(a,b){
         return NaN;
     } 
 }
-console.log(x);
 //  6-c)Crear una función validate integer que reciba un número como parámetro y verdadero si es un número entero.
 function validate (a){
     if (Number.isInteger(a)){
@@ -52,6 +51,6 @@ function newVali(a,b){
     } 
 }
 function suma(a,b){
-    newVali(a,b);
+    if(newVali(a,b));
     return a + b;
 }
